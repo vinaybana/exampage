@@ -1,34 +1,32 @@
-.column1{overflow-y: scroll;overflow-x: hidden;position: fixed;width: 64%;height: 100%;}
-.column1 .bg-primary{height: 50px;}
-.fa-play{margin-left: 10px;margin-top: 15px;}
-.timer{margin-left: 10px;}
-.mb-3{height: 100px;}
-.mb-3 .col-md-6{text-align: center;}
-.question{margin-top: 15px;}
-.mb-2{height: 50px;cursor: pointer;}
-.badge{float: left;}
-.column2{overflow-y: scroll;overflow-x: hidden;position: fixed;width: 35%;height: 100%;}
-.questionsummary{font-size: 18px;}
-.questiondetail .col-md-2{margin-left: -10px;}
-.questiondetail .row{margin-left: 10px;}
+.container-fluid .col-md-8{overflow-y: scroll;max-height: 100%;}
+.container-fluid .text-white{height: 50px;}
+.fa-play{margin-left: 10px;}
+.mb-2{height: 50px;}
 .Marked{color: #F8CF46;}
 .Attempted{color: #4882F7;}
 .Unattempted{color: black;}
 .Unseen{color: lightgray;}
+.questionsummary{font-size: 18px;margin-top: 15px;}
 .finalstatus{margin-top: 20px;}
 .finalstatus .Marked{margin-left: 10px;}
 .finalstatus .Attempted{margin-left: 40px;}
 .finalstatus .Unattempted{margin-left: 40px;}
 .finalstatus .Unseen{margin-left: 40px;}
-hr{box-shadow: 0px 0px 4px 0px #a5a0a0;}
 .questiondetail{margin-top: 20px;}
-.yell{border-radius: 100px;padding: 8px;border: 2px solid; text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;}
-.blu{border-radius: 100px;padding: 8px;border: 2px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;}
-.blak{border-radius: 100px;padding: 8px;border: 2px solid;text-align: center;border-color: black;margin-top: 10px;cursor: pointer;}
-.lghtgray{border-radius: 100px;padding: 8px;border: 2px solid;text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;}
+.yell{border-radius: 100px;padding: 5px;border: 2px solid; text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;}
+.blu{border-radius: 100px;padding: 5px;border: 2px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;}
+.blak{border-radius: 100px;padding: 5px;border: 2px solid;text-align: center;border-color: black;margin-top: 10px;cursor: pointer;}
+.lghtgray{border-radius: 100px;padding: 5px;border: 2px solid;text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;}
+hr{box-shadow: 0px 0px 4px 0px #a5a0a0;}
 .pre{font-size: 40px;color:#4882F7;}
-.circlecheck{margin-left:67px;font-size: 40px;color:#F8CF46;}
+.circlecheck{margin-left:22px;font-size: 40px;color:#F8CF46;}
 .next{text-align: center;font-size: 40px;color:#4882F7;}
-.submitbutton .btn-primary{float: left;  font-size: 20px;padding-left: 50px;padding-right: 50px;}
-
+.submitbutton .btn-primary{float: left;  font-size: 20px;padding-left: 30px;padding-right: 30px;}
+.questiondetail .col-md-2{margin-left: -10px;}
+.questiondetail .row{margin-left: 10px;}
+.bg-white .col-md-1{width:25%!important;float: left!important; }
+.bg-white .col-md-11{width:75%!important;float: left!important; }
+.bg-white .col-md-6{width:50%!important;float: left!important;}
+.questiondetail .col-md-2{width:15%!important;float: left!important;}
+.fixed-bottom .col-md-3{width:20%!important;float: left!important;}
 
