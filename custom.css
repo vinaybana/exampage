@@ -9,6 +9,8 @@
 .badge{float: left;}
 .column2{overflow-y: scroll;overflow-x: hidden;position: fixed;width: 35%;height: 100%;}
 .questionsummary{font-size: 18px;}
+.questiondetail .col-md-2{margin-left: -10px;}
+.questiondetail .row{margin-left: 10px;}
 .Marked{color: #F8CF46;}
 .Attempted{color: #4882F7;}
 .Unattempted{color: black;}
@@ -20,11 +22,13 @@
 .finalstatus .Unseen{margin-left: 40px;}
 hr{box-shadow: 0px 0px 4px 0px #a5a0a0;}
 .questiondetail{margin-top: 20px;}
-.yell{border-radius: 100px;padding: 9px;border: 3px solid; text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;}
-.blu{border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;}
-.blak{border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: black;margin-top: 10px;cursor: pointer;}
-.lghtgray{border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;}
+.yell{border-radius: 100px;padding: 8px;border: 2px solid; text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;}
+.blu{border-radius: 100px;padding: 8px;border: 2px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;}
+.blak{border-radius: 100px;padding: 8px;border: 2px solid;text-align: center;border-color: black;margin-top: 10px;cursor: pointer;}
+.lghtgray{border-radius: 100px;padding: 8px;border: 2px solid;text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;}
 .pre{font-size: 40px;color:#4882F7;}
 .circlecheck{margin-left:67px;font-size: 40px;color:#F8CF46;}
 .next{text-align: center;font-size: 40px;color:#4882F7;}
 .submitbutton .btn-primary{float: left;  font-size: 20px;padding-left: 50px;padding-right: 50px;}
+
+
