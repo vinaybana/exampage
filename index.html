@@ -8,37 +8,38 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+		<link rel="stylesheet" href="custom.css">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8 ">
-					<div style="overflow-y: scroll;overflow-x: hidden;position: fixed;width: 64%;height: 100%;" class="column1">
-						<div style="height: 50px;" class="bg-primary text-white">
+					<div class="column1">
+						<div class="bg-primary text-white">
 							<div class="row">
 								<div class="col-md-12">
-									<i style="margin-left: 10px;margin-top: 15px;" class="fal fa-play"></i>
-									<span style="margin-left: 10px;" class="timer">00:00:35</span>
+									<i class="fal fa-play"></i>
+									<span class="timer">00:00:35</span>
 									<span class="exam name">Demo-02</span>
 								</div>
 							</div>
 						</div>
-						<div style="height: 100px;" class="shadow p-3 mb-3 bg-white rounded">
+						<div class="shadow p-3 mb-3 bg-white rounded">
 							<div class="row">
 								<div class="col-md-6">
 									<span class="badge badge-primary">4</span>
 								</div>
 								<div class="col-md-6">
-									<div style="text-align: center;" class="col-md-6">
+									<div class="col-md-6">
 										0:00:58
 									</div>
 								</div>
-								<div style="margin-top: 15px;" class="question">
+								<div class="question">
 									<p>Hypercalcemia is seen in all except ?</p>
 								</div>
 							</div>	
 						</div>						
-						<div style="height: 50px;cursor: pointer; " class="shadow p-3 mb-2 bg-white rounded">
+						<div class="shadow p-3 mb-2 bg-white rounded">
 							<div class="row">
 								<div class="col-md-1">
 									<p>1.</p>
@@ -48,7 +49,7 @@
 								</div>
 							</div>
 						</div>
-						<div style="height: 50px;cursor: pointer;" class="shadow p-3 mb-2 bg-white rounded">
+						<div class="shadow p-3 mb-2 bg-white rounded">
 							<div class="row">
 								<div class="col-md-1">
 									<p>2.</p>
@@ -58,7 +59,7 @@
 								</div>
 							</div>
 						</div>
-						<div style="height: 50px;cursor: pointer;" class="shadow p-3 mb-2 bg-white rounded">
+						<div class="shadow p-3 mb-2 bg-white rounded">
 							<div class="row">
 								<div class="col-md-1">
 									<p>3.</p>
@@ -68,7 +69,7 @@
 								</div>
 							</div>
 						</div>
-						<div style="height: 50px;cursor: pointer;" class="shadow p-3 mb-5 bg-white rounded">
+						<div class="shadow p-3 mb-5 bg-white rounded">
 							<div class="row">
 								<div class="col-md-1">
 									<p>4.</p>
@@ -78,160 +79,134 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="fixed-bottom">
-							<div class="row">
-								<div class="col-md-4">
-									<div style="font-size: 40px;color:#4882F7;"class="pre">
-										<i class="fas fa-caret-circle-left"></i>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div style="text-align: center;font-size: 40px;color:#F8CF46;" class="circle">
-										<i  class="fas fa-check-circle"></i>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div style="float: right;font-size: 40px;color:#4882F7; "  class="next">
-										<i class="fas fa-caret-circle-right"></i>
-									</div>
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>
 				<div class="col-md-4 ">
-					<div  style="overflow-y: scroll;overflow-x: hidden;position: fixed;width: 35%;height: 100%;" class="column2">
-						<div style="font-size: 18px;" class="questionsummary">
+					<div class="column2">
+						<div class="questionsummary">
 							<div class="row">
 								<div class="col-md-6">
-									<i style="color: #F8CF46;"  class="far fa-dot-circle"></i>
+									<i class="far fa-dot-circle Marked"></i>
 									<span> Marked For Review</span>
 								</div>
 								<div class="col-md-6">
-									<i style="color: #4882F7;" class="far fa-dot-circle"></i>
+									<i class="far fa-dot-circle Attempted"></i>
 									<span> Attempted</span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-6">
-									<i style="color: black;"  class="far fa-dot-circle"></i>
+									<i class="far fa-dot-circle Unattempted"></i>
 									<span> Unattempted</span>
 								</div>
 								<div class="col-md-6">
-									<i style="color: lightgray;"  class="far fa-dot-circle"></i>
+									<i  class="far fa-dot-circle Unseen"></i>
 									<span> Unseen</span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<div style="margin-top: 20px;" class="finalstatus">
-										<i style="color: #F8CF46;margin-left: 10px;" class="far fa-dot-circle"></i>
+									<div class="finalstatus">
+										<i class="far fa-dot-circle Marked"></i>
 										<span> 1</span>
-										<i style="color: #4882F7;margin-left: 40px;"  class="far fa-dot-circle"></i>
+										<i  class="far fa-dot-circle Attempted"></i>
 										<span>0</span>
-										<i style="color: black;margin-left: 40px;" class="far fa-dot-circle"></i>
+										<i class="far fa-dot-circle Unattempted"></i>
 										<span> 2</span>
-										<i style="color: lightgray;margin-left: 40px;" class="far fa-dot-circle"></i>
+										<i class="far fa-dot-circle Unseen"></i>
 										<span> 2</span>
 									</div>
 								</div>
 							</div>
 						</div>
-						<hr style="box-shadow: 0px 0px 4px 0px #a5a0a0;">
-						<div style="margin-top: 20px;" class="questiondetail">
+						<hr>
+						<div class="questiondetail">
 							<div class="row">
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid; text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">1</div>
+									<div class="numberCircle yell">1</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;"  class="numberCircle">2</div>
+									<div class="numberCircle blu">2</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: black;margin-top: 10px;cursor: pointer;"  class="numberCircle">3</div>
+									<div class="numberCircle blak">3</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;"  class="numberCircle">4</div>
+									<div class="numberCircle lghtgray">4</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;"  class="numberCircle">5</div>
+									<div class="numberCircle lghtgray">5</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid; text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">6</div>
+									<div class="numberCircle yell">6</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">7</div>
+									<div class="numberCircle yell">7</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">8</div>
+									<div  class="numberCircle yell">8</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">9</div>
+									<div class="numberCircle yell">9</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;"  class="numberCircle">10</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid; text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;"  class="numberCircle">11</div>
-								</div>
-								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;"  class="numberCircle">12</div>
-								</div>
-								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: black;margin-top: 10px;cursor: pointer;"  class="numberCircle">13</div>
-								</div>
-								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: lightgray;margin-top: 10px;cursor: pointer;"  class="numberCircle">14</div>
-								</div>
-								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">15</div>
+									<div class="numberCircle blu">10</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid; text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">16</div>
+									<div class="numberCircle lghtgray">11</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #4882F7;margin-top: 10px;cursor: pointer;"  class="numberCircle">17</div>
+									<div class="numberCircle blu">12</div>
 								</div>
 								<div class="col-md-2">
-									<div style="border-radius: 100px;padding: 9px;border: 3px solid;text-align: center;border-color: #F8CF46;margin-top: 10px;cursor: pointer;"  class="numberCircle">18</div>
+									<div class="numberCircle blak">13</div>
+								</div>
+								<div class="col-md-2">
+									<div class="numberCircle lghtgray">14</div>
+								</div>
+								<div class="col-md-2">
+									<div class="numberCircle yell">15</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-2">
+									<div class="numberCircle yell">16</div>
+								</div>
+								<div class="col-md-2">
+									<div class="numberCircle blu">17</div>
+								</div>
+								<div class="col-md-2">
+									<div class="numberCircle yell">18</div>
 								</div>
 							</div>
 						</div>
-						<!-- <div style="margin-top: 392px;"  class="submitbutton">
-							<div class="row">
-								<div class="col-md-12">
-									<button style="padding-left: 141px;padding-right: 141px;" type="button" class="btn btn-primary">SUBMIT EXAM</button>
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>			
 			</div>	
 			<div class="fixed-bottom">
 				<div class="row">
 					<div class="col-md-3">
-						<div style="font-size: 40px;color:#4882F7;"class="pre">
+						<div class="pre">
 							<i class="fas fa-caret-circle-left"></i>
 						</div>
 					</div>
 					<div class="col-md-3">
-						<div style="margin-left:67px;font-size: 40px;color:#F8CF46;" class="circlecheck">
+						<div class="circlecheck">
 							<i  class="fas fa-check-circle"></i>
 						</div>
 					</div>
 					<div class="col-md-3">
-						<div style="text-align: center;font-size: 40px;color:#4882F7; "  class="next">
+						<div class="next">
 							<i class="fas fa-caret-circle-right"></i>
 						</div>
 					</div>
 					<div class="col-md-3">
 						<div class="submitbutton">
-							<button style=" float: left;  font-size: 20px;padding-left: 50px;padding-right: 50px;" type="button" class="btn btn-primary">SUBMIT EXAM</button>
+							<button type="button" class="btn btn-primary">SUBMIT EXAM</button>
 						</div>
 					</div>
 				</div>
