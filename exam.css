@@ -1,5 +1,5 @@
-.container-fluid .col-md-8{overflow-y: scroll;height: 98vh;}
-.container-fluid .col-md-4{overflow-y: scroll;height: 98vh;}
+.container-fluid .col-md-8{overflow-y: scroll;height: 90vh;}
+.container-fluid .col-md-4{overflow-y: scroll;height: 90vh;}
 .container-fluid .text-white{height: 50px;}
 .text-white .col-md-12{margin-top: 10px;}
 .fa-play{margin-left: 10px;}
