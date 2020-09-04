@@ -1,4 +1,5 @@
-.container-fluid .col-md-8{overflow-y: scroll;max-height: 100%;}
+.container-fluid .col-md-8{overflow-y: scroll;height: 98vh;}
+.container-fluid .col-md-4{overflow-y: scroll;height: 98vh;}
 .container-fluid .text-white{height: 50px;}
 .text-white .col-md-12{margin-top: 10px;}
 .fa-play{margin-left: 10px;}
@@ -29,11 +30,22 @@ hr{box-shadow: 0px 0px 4px 0px #a5a0a0;}
 .bg-white .col-md-11{width:75%!important;float: left!important; }
 .bg-white .col-md-6{width:50%!important;float: left!important;}
 .questiondetail .col-md-2{width:15%!important;float: left!important;}
-.bottom .col-md-3{width:20%!important;float: left!important;}
-.bottom  .row{margin-top: 150px;}
+.fixed-bottom .col-md-3{width:20%!important;float: left!important;}
+.fixed-bottom  .row{margin-top: 150px;}
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 400px){
 	.questiondetail .yellow, .blue, .black, .lightgray{padding: 0px;font-size: 12px;}
+	.container-fluid {overflow: scroll;height: 100%;}
+	.circlecheck{margin-left: 0px;}
+	.submitbutton .btn-primary{font-size: 10px;padding-left: 22px;padding-right: 22px;}
+	.pre{font-size: 49px;}
+	.circlecheck{font-size: 49px;}
+	.next{font-size: 49px;}
+	.bottom .row{margin-top: 10px;}
+	.submitbutton{margin-top: 10px;}
+}
+@media only screen and (max-width: 600px){
+	.questiondetail .yellow, .blue, .black, .lightgray{padding: 2px;font-size: 12px;}
 	.container-fluid {overflow: scroll;height: 100%;}
 	.circlecheck{margin-left: 0px;}
 	.submitbutton .btn-primary{font-size: 10px;padding-left: 22px;padding-right: 22px;}
